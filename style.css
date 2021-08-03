@@ -6,11 +6,17 @@
  }
 a{
     text-decoration:none;
-    display: inline-block;
 }
 ul li{
     list-style: none;
-    display: inline-block;
+}
+.title{
+    font-size: 32px;
+    color: #0e0b0b;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    text-transform: uppercase;
 }
 .add-btn{
     padding: 5px;
@@ -27,5 +33,6 @@ ul li{
     padding: 5px;
     border-radius: 5px;
     font-size: 15px;
+    align-items: center;
 
 }
