@@ -1,0 +1,31 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background-color: rgba(193, 18, 234, 0.93);
+ }
+a{
+    text-decoration:none;
+    display: inline-block;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+.add-btn{
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.clear-all {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.text-input{
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
