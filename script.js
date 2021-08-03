@@ -19,3 +19,17 @@ list.addEventListener("click", (event) => {
        event.target.parentNode.remove()
    }
 })
+
+textInput.addEventListener("keyup",(event) => {
+    let key = event.keyCode
+    if(textInput.value.trim() && key === 13){
+        const temlate = `<li class="list-item">
+                         <input type="checkbox" class="done">
+                         ${textInput.value}
+                         <button class="del-btn">delete</button>
+                         </li>`
+        list.innerHTML += template
+        textInput.value = ""
+    }
+})
+
